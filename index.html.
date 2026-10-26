@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiny AI World</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #171b18;
+      color: #fff4df;
+    }
+
+    header {
+      text-align: center;
+      padding: 32px 16px;
+      background: #29392e;
+    }
+
+    header h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      color: #d6e0cf;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .videos {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+
+    .card {
+      background: #273029;
+      border-radius: 14px;
+      overflow: hidden;
+      padding-bottom: 16px;
+    }
+
+    .cover {
+      min-height: 145px;
+      display: grid;
+      place-items: center;
+      font-size: 55px;
+      background: #455b47;
+    }
+
+    .card h2, .card p, .card a {
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+
+    .card a {
+      display: inline-block;
+      color: #f3d39a;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: #c6c6b9;
+    }
+
+    @media (min-width: 600px) {
+      .videos {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌿 Tiny AI World</h1>
+    <p>Small worlds. Cozy moments. Endless wonder.</p>
+  </header>
+
+  <main>
+    <h2>✨ Explore Our Miniature Worlds</h2>
+
+    <section class="videos">
+      <article class="card">
+        <div class="cover">🍵</div>
+        <h2>Tiny Tea Garden</h2>
+        <p>A peaceful little garden full of tiny details.</p>
+        <a href="#tea">Watch video →</a>
+      </article>
+
+      <article class="card">
+        <div class="cover">🏮</div>
+        <h2>Mini Night Market</h2>
+        <p>A cozy miniature street filled with warm lights.</p>
+        <a href="#market">Watch video →</a>
+      </article>
+
+      <article class="card">
+        <div class="cover">🎹</div>
+        <h2>Vintage Music Room</h2>
+        <p>A tiny room made for quiet and relaxing moments.</p>
+        <a href="#music">Watch video →</a>
+      </article>
+    </section>
+
+    <p id="tea">Tea Garden video: coming soon.</p>
+    <p id="market">Night Market video: coming soon.</p>
+    <p id="music">Music Room video: coming soon.</p>
+  </main>
+
+  <footer>
+    © 2026 Tiny AI World · Made with imagination
+  </footer>
+</body>
+</html>
